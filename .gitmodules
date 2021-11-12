@@ -1,0 +1,3 @@
+[submodule "dependencies/football"]
+	path = dependencies/football
+	url = git@github.com:ziyuwan/football.git
