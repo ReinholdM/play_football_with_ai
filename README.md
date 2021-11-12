@@ -54,6 +54,7 @@ run(
         "callback": rollout_func.psro
     }
 )
+```
 
 ### Play With football AI Trained by Malib
 
@@ -92,21 +93,10 @@ Alternative of steps 2 :  find Ubuntu-20.04 distro in  Windows store, and instal
 
 #### 3. Playing the game
 
-1. copy mappo_grfootball/football_ai.py to gfootball installation directory  gfootball/env/players/.
+1. open this repo in your terminal, `cd play_football_with_human`
 
-2. copy mappo_grfootball/malib_5_vs_5.py to gfootball/scenarios which provides specific football game setting 
+2. `bash play_with_human.sh $PATH`
 
-3. Connect to Ubuntu GUI interface through RDP on win10
-
-4. Start football game with screen rendering with flags：
-
-   5 vs 5 full game: 
-
-   left_team: keyboard, 3 built-AI teammate and 1 build-in GK; right_team: 4 opponents controlled by your trained model and 1 built-in GK;
-
-   `python3 -m gfootball.play_game --player "keyboard:left_players=1;football_ai:right_players=1,checkpoint=$PATH;football_ai:right_players=1,checkpoint=$PATH;football_ai:right_players=1,checkpoint=$PATH;football_ai:right_players=1, checkpoint=$PATH" --action_set=full --level "malib_5_vs_5"`
-
-   $PATH is the path where your model are saved.
+   $PATH is the path where your <gfootball environment>  are installed such as `~/miniconda3/env/env_name/lib/python3.6/site-packages/gfootball/`.
 
    
-```
