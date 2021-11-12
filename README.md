@@ -99,4 +99,4 @@ Alternative of steps 2 :  find Ubuntu-20.04 distro in  Windows store, and instal
 
    $PATH is the path where your <gfootball environment>  are installed such as `~/miniconda3/env/env_name/lib/python3.6/site-packages/gfootball/`.
 
-   
+3. extract trajectories from the directory that has stored dump files by running `python mappo_grfootball/dump_to_trjectories.py`
