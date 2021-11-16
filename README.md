@@ -48,7 +48,7 @@ Alternative of steps 2 :  find Ubuntu-20.04 distro in  Windows store, and instal
 
    https://zhuanlan.zhihu.com/p/149501381
 
-#### 3. Playing the game
+#### 3. Play the game!:satisfied:
 
 1. open this repo in your terminal, `cd play_football_with_human`
 
