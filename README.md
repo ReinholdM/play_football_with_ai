@@ -58,7 +58,7 @@ Alternative of steps 2 :  find Ubuntu-20.04 distro in  Windows store, and instal
 
 3. extract trajectories from the directory that has stored dump files by running `python mappo_grfootball/dump_to_trjectories.py`  
 
-### How to play the Football with your keyboard? :soccer:  
+## How to play the Football with your keyboard? :soccer:  
 
 Make sure to check out the [keyboard mappings](https://github.com/google-research/football#keyboard-mappings). To quit the game press Ctrl+C in the terminal.
    
