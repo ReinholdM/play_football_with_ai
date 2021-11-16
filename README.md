@@ -5,12 +5,6 @@
 ```shell
 conda create -n malib python==3.7 -y
 conda activate malib
-pip install -e .
-
-./install_deps.sh
-# for development
-# pip install -e .[dev]
-make test
 ```
 
 ## Play With football AI Trained by Malib
