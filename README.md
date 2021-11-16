@@ -1,5 +1,4 @@
-# malib
-A general-purpose multi-agent training framework.
+# Play with Football AI Scripts
 
 ## Installation
 
@@ -10,10 +9,11 @@ pip install -e .
 # for development
 # pip install -e .[dev]
 make test
-# then you can run training examples
+# then install the requirements.txt
+pip install -r requirements.txt
 ```
 
-### Play With football AI Trained by Malib
+## Play With football AI Trained by Malib
 
 #### 1. Environment 
 
