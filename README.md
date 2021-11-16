@@ -9,8 +9,6 @@ pip install -e .
 # for development
 # pip install -e .[dev]
 make test
-# then install the requirements.txt
-pip install -r requirements.txt
 ```
 
 ## Play With football AI Trained by Malib
@@ -25,23 +23,22 @@ Ubuntu20.04
 
 1. Install wsl2 by running Command Prompt as administrator, and input
 
-`wsl --list --online` 
+   `wsl --list --online` 
 
 2. Type following command  to install the WSL with a specific distro on Win10 and enter:
 
-`wsl --install -d Ubuntu-20.04`
+   `wsl --install -d Ubuntu-20.04`
 
-Alternative of steps 2 :  find Ubuntu-20.04 distro in  Windows store, and install it
+Alternative of steps 2 :  find Ubuntu-20.04 distribution in  Windows store, and install it
 
 3. Restart your winPC
 
-4. install gfootball on Ubuntu terminal (ensure pip and apt work properly), refers to ：
+4. Install gfootball on Ubuntu terminal (ensure pip and apt work properly), refers to ：
 
    https://github.com/google-research/football#on-your-computer
 
-5. install malib(necessary for now) 
-   install dependency: pip install -r requirements.txt
-   add malib_dev/, malib_dev/malib to environment variable PYTHONPATH
+5. Install malib(necessary for now) 
+   install dependency: `pip install -r requirements.txt`
    then you can import malib from python command
 
 6. Install xrdp to enable GUI interface of WSL, refers to :
@@ -50,7 +47,7 @@ Alternative of steps 2 :  find Ubuntu-20.04 distro in  Windows store, and instal
 
 #### 3. Play the game!:satisfied:
 
-1. open this repo in your terminal, `cd play_football_with_human`
+1. open this repo in your terminal, `cd play_football_with_ai`
 
 2. `bash play_with_human.sh $PATH`
 
