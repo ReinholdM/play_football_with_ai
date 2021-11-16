@@ -1,4 +1,4 @@
-# Play with Football AI Scripts
+# Play with Football AI Scripts :notebook_with_decorative_cover:
 
 ## Installation with conda
 
