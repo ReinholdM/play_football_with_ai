@@ -1,14 +1,12 @@
 # Play with Football AI Scripts :notebook_with_decorative_cover:
 
-## Play With football AI Trained by Malib
-
-#### 1. Environment 
+### Environment 
 
 Windows10 2004 or higher 
 
 Ubuntu20.04 
 
-#### 2. Installation
+### Installation
 
 1. Install wsl2 by running Command Prompt as administrator, and input
 
@@ -41,7 +39,7 @@ Alternative of steps 2 :  find Ubuntu-20.04 distribution in  Windows store, and 
 
    https://zhuanlan.zhihu.com/p/149501381
 
-#### 3. Play the game!:satisfied:
+### Play the game!:satisfied:
 
 1). open this repo in your terminal, `cd play_football_with_ai`
 
