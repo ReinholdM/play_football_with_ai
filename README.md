@@ -1,12 +1,5 @@
 # Play with Football AI Scripts :notebook_with_decorative_cover:
 
-## Installation with conda
-
-```shell
-conda create -n malib python==3.7 -y
-conda activate malib
-```
-
 ## Play With football AI Trained by Malib
 
 #### 1. Environment 
@@ -29,27 +22,34 @@ Alternative of steps 2 :  find Ubuntu-20.04 distribution in  Windows store, and 
 
 3. Restart your winPC
 
-4. Install gfootball on Ubuntu terminal (ensure pip and apt work properly), refers to ：
+4. Install conda/miniconda, then create environment with conda
+
+   ```shell
+   conda create -n malib python==3.7 -y
+   conda activate malib
+   ```
+   
+5. Install gfootball on Ubuntu terminal (ensure pip and apt work properly), refers to ：
 
    https://github.com/google-research/football#on-your-computer
 
-5. Install malib(necessary for now) 
+6. Install malib(necessary for now) 
    install dependency: `pip install -r requirements.txt`
    then you can import malib from python command
 
-6. Install xrdp to enable GUI interface of WSL, refers to :
+7. Install xrdp to enable GUI interface of WSL, refers to :
 
    https://zhuanlan.zhihu.com/p/149501381
 
 #### 3. Play the game!:satisfied:
 
-1. open this repo in your terminal, `cd play_football_with_ai`
+1). open this repo in your terminal, `cd play_football_with_ai`
 
-2. `bash play_with_human.sh $PATH`
+2). `bash play_with_human.sh $PATH`
 
    $PATH is the path where your <gfootball environment>  are installed such as `~/miniconda3/env/env_name/lib/python3.6/site-packages/gfootball/`.
 
-3. extract trajectories from the directory that has stored dump files by running `python mappo_grfootball/dump_to_trjectories.py`  
+3). extract trajectories from the directory that has stored dump files by running `python mappo_grfootball/dump_to_trjectories.py`  
 
 ## How to play the Football with your keyboard? :soccer:  
 
