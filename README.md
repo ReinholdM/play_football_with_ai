@@ -25,6 +25,9 @@ Alternative of steps 2 :  find Ubuntu-20.04 distribution in  Windows store, and 
    ```shell
    conda create -n malib python==3.7 -y
    conda activate malib
+   
+   git clone https://github.com/ReinholdM/play_football_with_ai.git
+   cd play_football_with_ai
    ```
    
 5. Install gfootball on Ubuntu terminal (ensure pip and apt work properly), refers to ：
